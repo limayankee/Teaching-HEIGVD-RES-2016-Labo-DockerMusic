@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:4.3.1
 
 COPY auditor.js /home
 COPY package.json /home

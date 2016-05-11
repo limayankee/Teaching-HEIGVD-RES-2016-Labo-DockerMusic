@@ -1,7 +1,9 @@
-FROM node:latest
+FROM node:4.3.1
 
-COPY musician.js /
-COPY package.json /
+COPY musician.js /home
+COPY package.json /home
+
+WORKDIR /home
 
 RUN npm install
 

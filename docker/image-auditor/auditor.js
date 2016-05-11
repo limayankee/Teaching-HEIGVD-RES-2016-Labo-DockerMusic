@@ -54,7 +54,7 @@ server.bind(2205, function() {
 function rmOldM() {
 
   function testTime(valeur, cle, map) {
-    if (moment().diff(moment(valeur)) > 10000)
+    if (moment().diff(moment(valeur)) > 5000)
     {
       musicianMap.delete(cle);
       lastSeenMap.delete(cle);
@@ -63,10 +63,9 @@ function rmOldM() {
   }
 
   lastSeenMap.forEach(testTime)
-
 }
 
-setInterval(rmOldM, 1000);
+setInterval(rmOldM, 5000);
 
 /**
  * Serveur TCP
@@ -78,6 +77,8 @@ var serverTCP = net.createServer();
 serverTCP.listen('2205');
 
 serverTCP.on('connection', function(sock) {
+
+  rmOldM();
 
   var tmp = new Array()
 

@@ -6,7 +6,7 @@
 * You should fork and clone this repo. You should also configure an `upstream` repo, to be able to pull updates that we will publish in this original repo.
 * There will not be a "full" lab grade for this long lab. However, there will *at least* one point to gain for the "salami" TE grade. Also, the skills that you will learn during this lab will be necessary for subsequent labs.
 * We expect that you will have more issues and questions than with other labs (because we have a left some questions open on purpose). Please ask your questions on telegram or in the forum, so that everyone in the class can benefit from the discussion.
- 
+
 ## Objectives
 
 This lab has 4 objectives:
@@ -125,17 +125,17 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | What is **npm**?
 | | *Enter your response here...*
 |Question | What is the `npm install` command and what is the purpose of the `--save` flag?
-| | *Enter your response here...*
+| | the install cmd install the pkg and the --save tag will make the pkg appear in the dependencies
 |Question | How can we use the `https://www.npmjs.com/` web site?
-| | *Enter your response here...*
+| | For os x with safari other wise FireFox is great
 |Question | In JavaScript, how can we **generate a UUID** compliant with RFC4122?
-| | *Enter your response here...*
+| | use the uuid modul find on npm
 |Question | In Node.js, how can we execute a function on a **periodic** basis?
-| | *Enter your response here...*
+| | with the use of the setInterval(callback, delay[, arg][, ...])
 |Question | In Node.js, how can we **emit UDP datagrams**?
-| | *Enter your response here...*
+| | With the use of a node js datagram
 |Question | In Node.js, how can we **access the command line arguments**?
-| | *Enter your response here...*
+| | By using the process.argv
 
 
 ## Task 3: package the "musician" app in a Docker image
@@ -162,13 +162,13 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | ---  | ---
 |Question | With Node.js, how can we listen for UDP datagrams in a multicast group?
 | | *Enter your response here...*
-|Question | How can we use the `Map` built-in object introduced in ECMAScript 6 to implement a **dictionary**? 
+|Question | How can we use the `Map` built-in object introduced in ECMAScript 6 to implement a **dictionary**?
 | | *Enter your response here...*
-|Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting? 
+|Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting?
 | | *Enter your response here...*
-|Question | When and how do we **get rid of inactive players**? 
+|Question | When and how do we **get rid of inactive players**?
 | | *Enter your response here...*
-|Question | How do I implement a **simple TCP server** in Node.js? 
+|Question | How do I implement a **simple TCP server** in Node.js?
 | | *Enter your response here...*
 
 
@@ -203,4 +203,3 @@ Have a look at the `validate.sh` script located in the top-level directory. This
 |04.05.2016 | PM | Activities 3 and 4
 |11.05.2016 | AM | There will be a **written test** on everything that we have studied so far (travail écrit).
 |11.05.2016 | PM | Validation and demonstrations.
-
